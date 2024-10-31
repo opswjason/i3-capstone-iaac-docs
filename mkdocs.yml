@@ -1,0 +1,83 @@
+site_name: Pathways SRE I3 - IAAC Capstone Documentation
+site_url: http://site.url
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - toc.integrate
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs
+    - navigation.expand        
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue grey
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: white
+      accent: blue
+nav:
+  - Home: index.md
+  - Testing Tab 2: admonitions.md
+  - Tab 3: code-examples.md
+  - Tab 4: content-tabs.md
+  - Tab 5: diagram-examples.md
+#  - ABSTRACT: 
+#  - LIST OF TABLES: 
+#  - FIGURES: 
+#  - APPENDICES: 
+#  - I. PROBLEM DOMAIN:
+#     - Statement of the Problem: 
+#      - Objective of the Problem: 
+#      - Scope and Limitation: 
+#      - Significance of Study: 
+#     - Operational Definition of Terminologies: 
+ 
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  generator: false
+  social:
+    - icon: simple/github
+      link: https://github.com/opswerks/i3-capstone-iaac
+
+
+copyright: Copyright &copy; 2024 Pathways Intake-3
