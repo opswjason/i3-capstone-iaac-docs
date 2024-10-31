@@ -13,11 +13,13 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
     - navigation.expand        
     - navigation.instant
     - navigation.instant.progress
     - navigation.path
-    - navigation.prune
+ #   - navigation.prune
 
   palette:
     # Dark Mode
@@ -36,9 +38,17 @@ theme:
       primary: white
       accent: blue
 nav:
-  - Project Overview: test.md
-  - Solution: index.md
-  - Ops Runbook: runbooks/ec2-restart.md
+  - Project Overview: index.md
+  - Solution: test.md
+  - Ops Runbook: 
+    - I. Restarting and ec2 instance: runbooks/ec2-restart.md
+  - Weather App:
+    - I. Building the App: weatherapp/building_weather-app.md
+    - II. Deploying the App: weatherapp/deploy_weather-app_kube.md
+  - Monitoring and Observability:
+    - I. Prometheus:
+      - A. Configure Prometheus: monitoring-and-observability/prometheus/how_to_configure_prometheus.md
+      - B. Adding Alerts Prometheus: monitoring-and-observability/prometheus/how_to_add_alerts_prometheus.md
   - Testing Tab 2: admonitions.md
   - Tab 3: code-examples.md
   - Tab 4: content-tabs.md
@@ -76,11 +86,17 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
+#extra_css:
+#  - css/extra.css
+#extra_javascript:
+#  - js/popper.min.js
+#  - js/tippy-bundle.umd.js
+#  - js/clipboard.js
+#  - js/extra.js
+
 extra:
   generator: false
   social:
     - icon: simple/github
       link: https://github.com/opswerks/i3-capstone-iaac
-
-
 copyright: Copyright &copy; 2024 Pathways Intake-3
