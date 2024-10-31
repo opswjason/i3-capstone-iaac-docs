@@ -1,5 +1,5 @@
 site_name: Pathways SRE I3 - IAAC Capstone Documentation
-site_url: http://site.url
+site_url: https://opswjason.github.io/i3-capstone-iaac-docs/
 theme:
   name: material
   font:
@@ -25,7 +25,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: blue grey
+      primary: black
       accent: deep purple
 
     # Light Mode
@@ -36,11 +36,14 @@ theme:
       primary: white
       accent: blue
 nav:
-  - Home: index.md
+  - Project Overview: test.md
+  - Solution: index.md
+  - Ops Runbook: runbooks/ec2-restart.md
   - Testing Tab 2: admonitions.md
   - Tab 3: code-examples.md
   - Tab 4: content-tabs.md
   - Tab 5: diagram-examples.md
+  
 #  - ABSTRACT: 
 #  - LIST OF TABLES: 
 #  - FIGURES: 

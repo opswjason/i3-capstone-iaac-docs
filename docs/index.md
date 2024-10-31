@@ -1,7 +1,5 @@
 ---
 hide:
-  - navigation
-  - toc
 ---
 # Project Overview
 ### Infrastructure-as-Code: Deploy and Operate
