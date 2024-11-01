@@ -10,28 +10,28 @@ This README demonstrates the deployment of a Private EKS Cluster with High Avail
 ## Installation
  
 1. Clone the repository:
-   ```bash
+   ```
    git clone <repository_url>
    cd <repository_name>
    ```
 2. Navigate to the ansible directory:
-   ```bash
+   ```
    cd ansible
    ```
 ## EKS Cluster Setup with Ansible
  
 - To create the EKS cluster, execute the following Ansible playbook:
-   ```bash
+   ```
    ansible-playbook deploy_HAcluster.yml
    ```
  
 - After the EKS cluster has been created, configure the cluster to join the Worker Nodes to the cluster:
-   ```bash
+   ```
    ansible-playbook -i inventory/inventory.ini configure_HAcluster.yml
    ```
  
 - Finally, test the EKS cluster by deploying pods to the cluster:
-   ```bash
+   ```
    ansible-playbook -i inventory/inventory.ini test_HAcluster.yml
    ```
 ## AWS Templates

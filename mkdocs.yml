@@ -48,7 +48,7 @@ nav:
       - I. Restarting EC2 Instance: runbooks/ec2-restart.md
       - II. Restarting EKS Cluster: runbooks/eks-restart.md
       - III. Velero Backup for EKS: runbooks/velero-eks.md
-  # - About the Authors: about.md
+  - About the Authors: about.md
   # - Weather App:
   #   - I. Building the App: weatherapp/building_weather-app.md
   #   - II. Deploying the App: weatherapp/deploy_weather-app_kube.md

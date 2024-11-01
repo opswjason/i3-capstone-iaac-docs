@@ -15,4 +15,5 @@ Our  team,  Pathways  SRE  Program  -  Intake  3,  is  a  diverse  group  of pro
 
 As  part  of  the  Pathways  SRE  Program,  we  have  undergone  rigorous  training  and  hands-on  projects  that  have  honed  our  skills  in  SRE  principles.  This  capstone  project  is  the  culmination  of  our  learning  and  collaboration,  reflecting  our  commitment  to innovation  in  cloud  infrastructure  management.
 
-We  are  proud  of  what  we  have  achieved  and  excited  to  share  our  work  with  the  community.  Thank  you  for  exploring  our  capstone  project!
+We  are  proud  of  what  we  have  achieved  and  excited  to  share  our  work. 
+Thank  you  for  exploring  our  capstone  project! :beer:

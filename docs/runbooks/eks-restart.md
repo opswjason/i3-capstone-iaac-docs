@@ -4,7 +4,7 @@
 
 This  runbook  details  the  steps  required  to  safely  restart  an  Amazon  EKS  cluster.
 
-## Pre-requisites
+## Prerequisites
 
 -   AWS  IAM  user  with  sufficient  permissions  to  manage  EKS  clusters.   
 -   AWS  CLI  installed  and  configured  with  appropriate  credentials.  

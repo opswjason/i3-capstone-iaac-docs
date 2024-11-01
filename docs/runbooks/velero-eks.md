@@ -5,7 +5,7 @@
 
 This runbook details the steps required to perform backups using Velero.
 
-## Pre-requisites
+## Prerequisites
 
 -   Velero installed and configured in your EKS cluster.
     

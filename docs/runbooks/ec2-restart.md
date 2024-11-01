@@ -4,20 +4,20 @@
 
 This runbook details the steps required to restart an EC2 instance in the AWS environment.
 
-## Pre-requisites
+## Prerequisites
 
 -   AWS IAM user with sufficient permissions to stop and start EC2 instances.
 -   AWS CLI installed and configured with appropriate credentials.
 
 ## Steps
 
-Identify the EC2 Instance
+*Identify the EC2 Instance*
 
 -   Log in to the AWS Management Console.
 -   Navigate to the EC2 Dashboard.
 -   Identify the instance to be restarted. Note its Instance ID and Instance State.
 
-Check Instance Status
+*Check Instance Status*
 
 -   Ensure the instance is in a state that can be restarted (e.g., it should be in the running state).
 
