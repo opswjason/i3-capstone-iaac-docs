@@ -19,7 +19,7 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.path
- #   - navigation.prune
+    - navigation.prune
 
   palette:
     # Dark Mode
@@ -40,20 +40,22 @@ theme:
 nav:
   - Project Overview: index.md
   - Solution: solution.md
-  - Ops Runbook: 
-    - I. Restarting and ec2 instance: runbooks/ec2-restart.md
-  - Weather App:
-    - I. Building the App: weatherapp/building_weather-app.md
-    - II. Deploying the App: weatherapp/deploy_weather-app_kube.md
-  - Monitoring and Observability:
-    - I. Prometheus:
-      - A. Configure Prometheus: monitoring-and-observability/prometheus/how_to_configure_prometheus.md
-      - B. Adding Alerts Prometheus: monitoring-and-observability/prometheus/how_to_add_alerts_prometheus.md
-  - Testing Tab 2: admonitions.md
-  - Tab 3: code-examples.md
-  - Tab 4: content-tabs.md
-  - Tab 5: diagram-examples.md
-  
+  - Installation and Setups:
+      - Weather App: weatherapp/building_weather-app.md 
+      - Monitoring and Observability: monitoring-and-observability/prometheus/how_to_configure_prometheus.md
+      - EKS Setup using Ansible: eks/eks-setup-using-ansible.md
+  - Ops Runbook:  
+      - I. Restarting EC2 Instance: runbooks/ec2-restart.md
+      - II. Restarting EKS Cluster: runbooks/eks-restart.md
+      - III. Velero Backup for EKS: runbooks/velero-eks.md
+  # - About the Authors: about.md
+  # - Weather App:
+  #   - I. Building the App: weatherapp/building_weather-app.md
+  #   - II. Deploying the App: weatherapp/deploy_weather-app_kube.md
+  # - Monitoring and Observability:
+  #   - I. Prometheus:
+  #     - A. Configure Prometheus: monitoring-and-observability/prometheus/how_to_configure_prometheus.md
+  #     - B. Adding Alerts Prometheus: monitoring-and-observability/prometheus/how_to_add_alerts_prometheus.md
 #  - ABSTRACT: 
 #  - LIST OF TABLES: 
 #  - FIGURES: 

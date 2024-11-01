@@ -1,4 +1,3 @@
-J eto pala yung readme ko
 # Automated EKS Cluster setup with Ansible Guide
  
 This README demonstrates the deployment of a Private EKS Cluster with High Availability using Ansible and Amazon Cloudformation.
@@ -21,23 +20,24 @@ This README demonstrates the deployment of a Private EKS Cluster with High Avail
    ```
 ## EKS Cluster Setup with Ansible
  
-### To create the EKS cluster, execute the following Ansible playbook:
+- To create the EKS cluster, execute the following Ansible playbook:
    ```bash
    ansible-playbook deploy_HAcluster.yml
    ```
  
-### After the EKS cluster has been created, configure the cluster to join the Worker Nodes to the cluster:
+- After the EKS cluster has been created, configure the cluster to join the Worker Nodes to the cluster:
    ```bash
    ansible-playbook -i inventory/inventory.ini configure_HAcluster.yml
    ```
  
-### Finally, test the EKS cluster by deploying pods to the cluster:
+- Finally, test the EKS cluster by deploying pods to the cluster:
    ```bash
    ansible-playbook -i inventory/inventory.ini test_HAcluster.yml
    ```
 ## AWS Templates
  
-The aws/templates directory contains CloudFormation templates for setting up the necessary AWS resources:
+*The aws/templates directory contains CloudFormation templates for setting up the necessary AWS resources:*
+
 - **bastion.yml**: Provisions a Bastion host for secure access.
 - **eks.yml**:eks.yml: Creates the EKS cluster.
 - **network.yml**:network.yml: Configures networking resources like VPC and subnets.

@@ -1,6 +1,6 @@
-# Pathways SRE – Capstone Project
+# Pathways SRE – Capstone Project 
 
-## Infrastructure-as-Code: Deploy and Operate
+Infrastructure-as-Code: Deploy and Operate
 
 ## Learning Objectives
 - Create automations for deploying infrastructure, platform, and application using an Infrastructure-as-Code approach.
@@ -20,7 +20,7 @@ All related documentation must be in the given GitHub repository.
 - Directly pushing or committing to the GitHub repository is not allowed. Pull requests with review, approval, and merging must be practiced for collaboration purposes.
 - On the day of the defense, it is expected that the infrastructure will be freshly re-deployed using the created automation.
 
-## Pre-requisites
+## Prerequisites
 ### c/o Trainees:
   - Create GitHub accounts using OpsWerks email.
   - Send the list of GitHub accounts to the course admin.
@@ -54,7 +54,7 @@ All related documentation must be in the given GitHub repository.
 - To show that pull request practices were strictly followed, the main repository’s commit history must only consist of merged pull requests.
 
 ### *Ops Simulation*
-#### Introduce failures in your infrastructure and application based on (but not limited to) the alerting rules required:
+####Introduce failures in your infrastructure and application based on (but not limited to) the alerting rules required:
 - *Infrastructure failures*
     - Down Kubernetes Control Plane / Worker node.
     - Down EC2 instances.
