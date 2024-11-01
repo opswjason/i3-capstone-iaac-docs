@@ -27,7 +27,7 @@ You can also set up alerts by using `extraVolumes` and `extraVolumeMounts`. This
            annotations:
              summary: "High CPU Usage Detected"
              description: "CPU usage is above 80% for more than 5 minutes."
-      ```
+    ```
 
 Save this as alerts-configmap.yaml, and create it with:
 

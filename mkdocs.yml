@@ -39,7 +39,7 @@ theme:
       accent: blue
 nav:
   - Project Overview: index.md
-  - Solution: test.md
+  - Solution: solution.md
   - Ops Runbook: 
     - I. Restarting and ec2 instance: runbooks/ec2-restart.md
   - Weather App:
